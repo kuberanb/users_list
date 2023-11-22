@@ -1,3 +1,4 @@
+import 'package:brain_wired/core/colors.dart';
 import 'package:brain_wired/views/Home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -53,8 +54,8 @@ class _SplashScreenState extends State<SplashScreen> {
                   'Brain Wired',
                   style: TextStyle(
                     color: kWhiteColor,
-                    fontSize: 0.06 * screenHeight,
-                    letterSpacing: 0.03 * screenWidth,
+                    fontSize: 0.04 * screenHeight, 
+                    letterSpacing: 0.02 * screenWidth,
                     fontWeight: FontWeight.bold,
                     fontFamily: GoogleFonts.lora().fontFamily,
                   ),

@@ -1,4 +1,4 @@
 
 import 'package:flutter/material.dart';
 
-const kWhiteColor = Colors.white;
+const kHeight10 = SizedBox(height: 10);
